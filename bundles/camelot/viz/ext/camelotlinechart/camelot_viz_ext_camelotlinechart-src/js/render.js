@@ -566,7 +566,7 @@ define("camelot_viz_ext_camelotlinechart-src/js/render", ["camelot_viz_ext_camel
 						defaultMargin.top) +
 					")");
 
-			var legendElementWidth = (plotAreaHeight / 50 > 5) ? 10 : 5;
+			var legendElementWidth = (plotAreaHeight / 50 > 5) ? 8 : 5;
 			var xDistBetweenElements = legendElementWidth / 2;
 			var legendElementHeight = legendElementWidth;
 			var yDistBetweenElements = legendElementWidth;
