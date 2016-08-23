@@ -1,0 +1,104 @@
+/* IMPORTANT:  use unique CSS class name to avoid confliction with other extensions or applications. */
+
+.camelot_viz_ext_camelotlinechart_visPlotArea_Yaxis_Line line {
+    fill: none;
+    stroke: #878786;
+    shape-rendering: crispEdges;
+    stroke-width: 1;
+}
+.camelot_viz_ext_camelotlinechart_visPlotArea_Yaxis_GridLines line {
+    fill: none;
+    stroke: #ececec;
+    shape-rendering: crispEdges;
+    stroke-width: 1;
+}
+.camelot_viz_ext_camelotlinechart_visPlotArea_Yaxis_Ticks line {
+    fill: none;
+    stroke: #878786;
+    shape-rendering: crispEdges;
+    stroke-width: 1;
+}
+.camelot_viz_ext_camelotlinechart_visPlotArea_Yaxis_Labels text {
+    fill: #737373;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.camelot_viz_ext_camelotlinechart_visPlotArea_Yaxis_MainLabel text {
+    fill: #737373;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.camelot_viz_ext_camelotlinechart_visPlotArea_Xaxis_Line line {
+    fill: none;
+    stroke: #878786;
+    shape-rendering: crispEdges;
+    stroke-width: 1;
+}
+.camelot_viz_ext_camelotlinechart_visPlotArea_Xaxis_Ticks line {
+    fill: none;
+    stroke: #878786;
+    shape-rendering: crispEdges;
+    stroke-width: 1;
+}
+.camelot_viz_ext_camelotlinechart_visPlotArea_Xaxis_Ticks_LowestDim line {
+    fill: none;
+    stroke: #878786;
+    shape-rendering: crispEdges;
+    stroke-width: 1;
+}
+.camelot_viz_ext_camelotlinechart_visPlotArea_Xaxis_Labels text {
+    fill: #737373;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.camelot_viz_ext_camelotlinechart_visPlotArea_Utilization_RefLine line {
+    shape-rendering: crispEdges;
+    stroke-width: 3;
+}
+
+.camelot_viz_ext_camelotlinechart_visLegend line {
+    shape-rendering: crispEdges;
+    stroke-width: 3;
+}
+
+.camelot_viz_ext_camelotlinechart_visLegend text {
+	fill: #737373;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.camelot_viz_ext_camelotlinechart_tooltip_container rect {
+	fill: #ffffff;
+	stroke: #000;
+	stroke-width: 0.1;
+	opacity: 1;
+}
+
+.camelot_viz_ext_camelotlinechart_tooltip_container text {
+	fill: #000000;
+	font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.camelot_viz_ext_camelotlinechart_visPlotArea_Lines line {
+    shape-rendering: auto;
+    stroke-width: 2;
+}
+
+.camelot_viz_ext_camelotlinechart_visPlotArea_DotsLabels text {
+	fill: #737373;
+	font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+/* For example, adding the extension id as prefix of CSS class name. */

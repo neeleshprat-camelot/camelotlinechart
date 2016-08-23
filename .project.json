@@ -1,0 +1,99 @@
+{
+  "generation": [
+    {
+      "templateId": "vizpacker.emptyProject",
+      "templateVersion": "0.0.1",
+      "dateTimeStamp": "Thu, 18 Aug 2016 09:11:44 GMT"
+    }
+  ],
+  "vizprojectmanager": {
+    "id": "camelot.viz.ext.camelotlinechart",
+    "name": "Line Chart",
+    "version": "1.0.0",
+    "vendor": {
+      "name": "Camelot ITLab",
+      "url": "Your company website"
+    },
+    "description": "Line Chart designed for Camelot needs",
+    "template": "standard",
+    "title": {
+      "enabled": true,
+      "place": "top",
+      "text": "Chart Title",
+      "alignment": "center"
+    },
+    "legend": {
+      "enabled": false,
+      "place": "right",
+      "title": {
+        "text": "City/Year"
+      }
+    },
+    "plot": {
+      "id": "camelot.viz.ext.camelotlinechart.PlotModule",
+      "name": "Line Chart Module",
+      "feeds": {
+        "dimensionSets": [
+          {
+            "name": "X Axis",
+            "min": "0",
+            "max": "2",
+            "minStackedDims": "0",
+            "maxStackedDims": "Infinity",
+            "aaIndex": 1,
+            "id": "camelot.viz.ext.camelotlinechart.PlotModule.DS1",
+            "plotId": "camelot.viz.ext.camelotlinechart.PlotModule",
+            "i": 1
+          }
+        ],
+        "measureSets": [
+          {
+            "name": "Y Axis",
+            "min": "0",
+            "max": "Infinity",
+            "mgIndex": 1,
+            "id": "camelot.viz.ext.camelotlinechart.PlotModule.MS1",
+            "plotId": "camelot.viz.ext.camelotlinechart.PlotModule",
+            "i": 1
+          }
+        ]
+      }
+    },
+    "data": {
+      "fileName": "CamelotLineChart_v1.csv",
+      "delimiter": ",",
+      "useFirstRowAsHeader": true,
+      "fields": [
+        "Year (TD)",
+        "Time Division",
+        "Utilization"
+      ],
+      "types": [
+        "Dimension",
+        "Dimension",
+        "Measure"
+      ]
+    },
+    "binding": {
+      "camelot.viz.ext.camelotlinechart.PlotModule.MS1": [
+        "Utilization"
+      ],
+      "camelot.viz.ext.camelotlinechart.PlotModule.DS1": [
+        "Year (TD)",
+        "Time Division"
+      ]
+    },
+    "modelVersion": "0.0.2",
+    "requiresdkversion": "5.6.0",
+    "dataModel": "sap.viz.api.data.CrosstableDataset",
+    "container": "BorderSVGFlow",
+    "newExtensionAPI": false
+  },
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  }
+}

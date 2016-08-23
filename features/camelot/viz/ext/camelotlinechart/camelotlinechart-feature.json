@@ -1,0 +1,19 @@
+{
+	"metadataVersion": "1.0",
+	"id": "camelot.viz.ext.camelotlinechart",
+	"name": "Line Chart",
+	"description": "Line Chart designed for Camelot needs",
+	"version": "1.0.0",
+	"vendor": {
+		"name": "Camelot ITLab",
+		"url": "Your company website"
+	},
+	"requires": [{
+		"id": "sap.viz.common.core",
+		"version": "5.6.0"
+	}],
+	"bundles": [{
+		"id": "camelot.viz.ext.camelotlinechart",
+		"version": "1.0.0"
+	}]
+}
